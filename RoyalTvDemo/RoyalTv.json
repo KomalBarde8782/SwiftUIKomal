@@ -1,0 +1,94 @@
+{
+  "featured_video": {
+    "name": "BigBuckBunny.mp4",
+    "thumbnail": "images/BigBuckBunny.jpg",
+    "title": "Big Buck Bunny"
+  },
+  "categories": [
+    {
+      "name": "Our Ships",
+      "videos": [
+        {
+          "name": "ElephantsDream.mp4",
+          "thumbnail": "images/ElephantsDream.jpg",
+          "title": "Elephant Dream"
+        },
+        {
+          "name": "ForBiggerBlazes.mp4",
+          "thumbnail": "images/ForBiggerBlazes.jpg",
+          "title": "For Bigger Blazes"
+        },
+        {
+          "name": "ForBiggerEscapes.mp4",
+          "thumbnail": "images/ForBiggerEscapes.jpg",
+          "title": "For Bigger Escape"
+        }
+      ]
+    },
+    {
+      "name": "Destinations",
+      "videos": [
+        {
+          "name": "ForBiggerFun.mp4",
+          "thumbnail": "images/ForBiggerFun.jpg",
+          "title": "For Bigger Fun"
+        },
+        {
+          "name": "ForBiggerJoyrides.mp4",
+          "thumbnail": "images/ForBiggerJoyrides.jpg",
+          "title": "For Bigger Joyrides"
+        }
+      ]
+    },
+    {
+      "name": "Programs",
+      "videos": [
+        {
+          "name": "ForBiggerMeltdowns.mp4",
+          "thumbnail": "images/ForBiggerMeltdowns.jpg",
+          "title": "For Bigger Meltdowns"
+        },
+        {
+          "name": "Sintel.mp4",
+          "thumbnail": "images/Sintel.jpg",
+          "title": "Sintel"
+        },
+        {
+          "name": "SubaruOutbackOnStreetAndDirt.mp4",
+          "thumbnail": "images/SubaruOutbackOnStreetAndDirt.jpg",
+          "title": "Subaru Outback On Street And Dirt"
+        }
+      ]
+    },
+    {
+      "name": "Behind the Scenes",
+      "videos": [
+        {
+          "name": "TearsOfSteel.mp4",
+          "thumbnail": "images/TearsOfSteel.jpg",
+          "title": "Tears of Steel"
+        },
+        {
+          "name": "VolkswagenGTIReview.mp4",
+          "thumbnail": "images/VolkswagenGTIReview.jpg",
+          "title": "Volkswagen GTI Review"
+        },
+        {
+          "name": "WeAreGoingOnBullrun.mp4",
+          "thumbnail": "images/WeAreGoingOnBullrun.jpg",
+          "title": "We Are Going On Bullrun"
+        }
+      ]
+    },
+    {
+      "name": "Our Family of Brands",
+      "videos": [
+        {
+          "name": "WhatCarCanYouGetForAGrand.mp4",
+          "thumbnail": "images/WhatCarCanYouGetForAGrand.jpg",
+          "title": "What care can you get for a grand?"
+        }
+      ]
+    }
+  ]
+}

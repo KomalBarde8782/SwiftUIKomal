@@ -1,0 +1,33 @@
+{
+    "payload": {
+        "featuredVideo": {
+            "title": "Elephant Dream",
+            "videoUrl": "ElephantsDream.mp4",
+            "asset": "images/ElephantsDream.jpg"
+        },
+        "categories": [
+            {
+                "categoryName": "Our ships",
+                "metadata": [
+                    {
+                        "title": "Elephant Dream",
+                        "videoUrl": "ElephantsDream.mp4",
+                        "asset": "images/ElephantsDream.jpg"
+                    },
+                    {
+                        "title": "For Bigger Blazes",
+                        "videoUrl": "ForBiggerBlazes.mp4",
+                        "asset": "images/ForBiggerBlazes.jpg"
+                    },
+                    {
+                        "title": "For Bigger Escape",
+                        "videoUrl": "ForBiggerEscapes.mp4",
+                        "asset": "images/ForBiggerEscapes.jpg"
+                    }
+                ]
+            }
+            
+        ]
+    },
+    "status": 200
+}
