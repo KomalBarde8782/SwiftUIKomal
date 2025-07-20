@@ -42,7 +42,12 @@ struct SwiftDemoNewApp: App {
            // accessibilityDemo()
             
             //HomeVideosView(model: HomeVideoCategoryItem(title: "", image: nil, video: nil))
-            ios14_demoApp()
+           // ios14_demoApp()
+            let repository = AuthRepositoryImpl()
+            let useCase = LoginUseCaseImpl(repository: repository)
+            let viewModel = LoginViewModel(loginUseCase: useCase)
+           // Pass the viewModel to LoginView
+           CleanLoginView(viewModel: viewModel)
         }
     }
 }
