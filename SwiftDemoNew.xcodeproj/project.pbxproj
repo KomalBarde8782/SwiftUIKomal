@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24EF6E1A2E2C0BFC0056B4F6 /* COBrandHubViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EF6E192E2C0BFC0056B4F6 /* COBrandHubViewUITests.swift */; };
+		24EF6E5A2E2C10180056B4F6 /* LoginSwiftUiTestDemoViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EF6E592E2C10180056B4F6 /* LoginSwiftUiTestDemoViewTests.swift */; };
 		5404A38D2ABAD73900D08F95 /* HomeVideoCategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5404A38C2ABAD73900D08F95 /* HomeVideoCategoryItem.swift */; };
 		5407E10F2AA9E07A00B82904 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5407E10E2AA9E07A00B82904 /* test.swift */; };
 		540C1FD42A8D0459007A668D /* SwiftDemoNewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540C1FD32A8D0459007A668D /* SwiftDemoNewApp.swift */; };
 		540C1FD82A8D045B007A668D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 540C1FD72A8D045B007A668D /* Assets.xcassets */; };
 		540C1FDB2A8D045B007A668D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 540C1FDA2A8D045B007A668D /* Preview Assets.xcassets */; };
-		540C1FE52A8D045B007A668D /* SwiftDemoNewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540C1FE42A8D045B007A668D /* SwiftDemoNewTests.swift */; };
 		540C1FEF2A8D045B007A668D /* SwiftDemoNewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540C1FEE2A8D045B007A668D /* SwiftDemoNewUITests.swift */; };
 		540C1FF12A8D045B007A668D /* SwiftDemoNewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540C1FF02A8D045B007A668D /* SwiftDemoNewUITestsLaunchTests.swift */; };
 		540C20112A8D0476007A668D /* StaeDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540C1FFD2A8D0475007A668D /* StaeDemo.swift */; };
@@ -132,6 +133,9 @@
 /* Begin PBXFileReference section */
 		244F50442E202E9600D1D9B0 /* StateObjDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjDemo.swift; sourceTree = "<group>"; };
 		244F50452E202EEE00D1D9B0 /* ObservedObjDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObjDemo.swift; sourceTree = "<group>"; };
+		24EF6E192E2C0BFC0056B4F6 /* COBrandHubViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COBrandHubViewUITests.swift; sourceTree = "<group>"; };
+		24EF6E562E2C0FE10056B4F6 /* LoginSwiftUiTestDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSwiftUiTestDemoView.swift; sourceTree = "<group>"; };
+		24EF6E592E2C10180056B4F6 /* LoginSwiftUiTestDemoViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSwiftUiTestDemoViewTests.swift; sourceTree = "<group>"; };
 		5404A38C2ABAD73900D08F95 /* HomeVideoCategoryItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVideoCategoryItem.swift; sourceTree = "<group>"; };
 		5407E10E2AA9E07A00B82904 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		540C1FD02A8D0459007A668D /* SwiftDemoNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDemoNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,7 +143,6 @@
 		540C1FD72A8D045B007A668D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		540C1FDA2A8D045B007A668D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		540C1FE02A8D045B007A668D /* SwiftDemoNewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDemoNewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		540C1FE42A8D045B007A668D /* SwiftDemoNewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDemoNewTests.swift; sourceTree = "<group>"; };
 		540C1FEA2A8D045B007A668D /* SwiftDemoNewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDemoNewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		540C1FEE2A8D045B007A668D /* SwiftDemoNewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDemoNewUITests.swift; sourceTree = "<group>"; };
 		540C1FF02A8D045B007A668D /* SwiftDemoNewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDemoNewUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -275,9 +278,18 @@
 			path = TCSSwiftUI;
 			sourceTree = "<group>";
 		};
+		24EF6E552E2C0FD00056B4F6 /* SwftUITestCases */ = {
+			isa = PBXGroup;
+			children = (
+				24EF6E562E2C0FE10056B4F6 /* LoginSwiftUiTestDemoView.swift */,
+			);
+			path = SwftUITestCases;
+			sourceTree = "<group>";
+		};
 		540C1FC72A8D0459007A668D = {
 			isa = PBXGroup;
 			children = (
+				24EF6E552E2C0FD00056B4F6 /* SwftUITestCases */,
 				244F50432E202E8500D1D9B0 /* TCSSwiftUI */,
 				542D7F5A2B1897DA000C382B /* Loyalty */,
 				54E922882AEA2DE0007A8FB8 /* VideosCourousal */,
@@ -333,7 +345,6 @@
 		540C1FE32A8D045B007A668D /* SwiftDemoNewTests */ = {
 			isa = PBXGroup;
 			children = (
-				540C1FE42A8D045B007A668D /* SwiftDemoNewTests.swift */,
 			);
 			path = SwiftDemoNewTests;
 			sourceTree = "<group>";
@@ -341,6 +352,8 @@
 		540C1FED2A8D045B007A668D /* SwiftDemoNewUITests */ = {
 			isa = PBXGroup;
 			children = (
+				24EF6E592E2C10180056B4F6 /* LoginSwiftUiTestDemoViewTests.swift */,
+				24EF6E192E2C0BFC0056B4F6 /* COBrandHubViewUITests.swift */,
 				540C1FEE2A8D045B007A668D /* SwiftDemoNewUITests.swift */,
 				540C1FF02A8D045B007A668D /* SwiftDemoNewUITestsLaunchTests.swift */,
 			);
@@ -768,7 +781,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				540C1FE52A8D045B007A668D /* SwiftDemoNewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -778,6 +790,8 @@
 			files = (
 				540C1FF12A8D045B007A668D /* SwiftDemoNewUITestsLaunchTests.swift in Sources */,
 				540C1FEF2A8D045B007A668D /* SwiftDemoNewUITests.swift in Sources */,
+				24EF6E5A2E2C10180056B4F6 /* LoginSwiftUiTestDemoViewTests.swift in Sources */,
+				24EF6E1A2E2C0BFC0056B4F6 /* COBrandHubViewUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -927,7 +941,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -957,7 +971,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -974,7 +988,6 @@
 		540C1FF82A8D045B007A668D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -994,7 +1007,6 @@
 		540C1FF92A8D045B007A668D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1014,7 +1026,6 @@
 		540C1FFB2A8D045B007A668D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2UW89L2V47;
@@ -1032,7 +1043,6 @@
 		540C1FFC2A8D045B007A668D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2UW89L2V47;
