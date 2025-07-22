@@ -147,6 +147,11 @@
 		240640532E2944D900D77E8A /* CleanUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanUseCase.swift; sourceTree = "<group>"; };
 		240640572E2944F100D77E8A /* AuthRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepository.swift; sourceTree = "<group>"; };
 		240640582E2944F100D77E8A /* DatabaseFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseFile.swift; sourceTree = "<group>"; };
+		240FD0A12E2FF56B008F5419 /* Report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
+		240FD0A32E2FF5B4008F5419 /* Discount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discount.swift; sourceTree = "<group>"; };
+		240FD0A52E2FF651008F5419 /* Bird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bird.swift; sourceTree = "<group>"; };
+		240FD0A72E2FF754008F5419 /* Worker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Worker.swift; sourceTree = "<group>"; };
+		240FD0A92E2FF8C1008F5419 /* MySQLDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySQLDatabase.swift; sourceTree = "<group>"; };
 		244F50442E202E9600D1D9B0 /* StateObjDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjDemo.swift; sourceTree = "<group>"; };
 		244F50452E202EEE00D1D9B0 /* ObservedObjDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObjDemo.swift; sourceTree = "<group>"; };
 		24EF6E102E2C06440056B4F6 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
@@ -338,6 +343,58 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
+		240FD09F2E2FF54B008F5419 /* SolidPrinciple */ = {
+			isa = PBXGroup;
+			children = (
+				240FD0A82E2FF8A8008F5419 /* DependencyInversion */,
+				240FD0A62E2FF741008F5419 /* ISP */,
+				240FD0A42E2FF62D008F5419 /* LiskovSubstitution */,
+				240FD0A22E2FF5A4008F5419 /* OpenClose */,
+				240FD0A02E2FF55F008F5419 /* SinpleResp */,
+			);
+			path = SolidPrinciple;
+			sourceTree = "<group>";
+		};
+		240FD0A02E2FF55F008F5419 /* SinpleResp */ = {
+			isa = PBXGroup;
+			children = (
+				240FD0A12E2FF56B008F5419 /* Report.swift */,
+			);
+			path = SinpleResp;
+			sourceTree = "<group>";
+		};
+		240FD0A22E2FF5A4008F5419 /* OpenClose */ = {
+			isa = PBXGroup;
+			children = (
+				240FD0A32E2FF5B4008F5419 /* Discount.swift */,
+			);
+			path = OpenClose;
+			sourceTree = "<group>";
+		};
+		240FD0A42E2FF62D008F5419 /* LiskovSubstitution */ = {
+			isa = PBXGroup;
+			children = (
+				240FD0A52E2FF651008F5419 /* Bird.swift */,
+			);
+			path = LiskovSubstitution;
+			sourceTree = "<group>";
+		};
+		240FD0A62E2FF741008F5419 /* ISP */ = {
+			isa = PBXGroup;
+			children = (
+				240FD0A72E2FF754008F5419 /* Worker.swift */,
+			);
+			path = ISP;
+			sourceTree = "<group>";
+		};
+		240FD0A82E2FF8A8008F5419 /* DependencyInversion */ = {
+			isa = PBXGroup;
+			children = (
+				240FD0A92E2FF8C1008F5419 /* MySQLDatabase.swift */,
+			);
+			path = DependencyInversion;
+			sourceTree = "<group>";
+		};
 		244F50432E202E8500D1D9B0 /* TCSSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
@@ -395,6 +452,7 @@
 		540C1FC72A8D0459007A668D = {
 			isa = PBXGroup;
 			children = (
+				240FD09F2E2FF54B008F5419 /* SolidPrinciple */,
 				24EF6E0E2E2C06220056B4F6 /* PlatformHubArchitecture */,
 				2406404B2E29443A00D77E8A /* CleanArchiteture */,
 				2406402B2E29384500D77E8A /* Viper */,
