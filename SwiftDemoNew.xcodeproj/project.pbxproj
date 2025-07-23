@@ -13,6 +13,11 @@
 		240640552E2944D900D77E8A /* CleanUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240640532E2944D900D77E8A /* CleanUseCase.swift */; };
 		240640592E2944F100D77E8A /* DatabaseFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240640582E2944F100D77E8A /* DatabaseFile.swift */; };
 		2406405A2E2944F100D77E8A /* AuthRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240640572E2944F100D77E8A /* AuthRepository.swift */; };
+		240FD0AF2E2FFB74008F5419 /* StringCatalogContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240FD0AB2E2FFB74008F5419 /* StringCatalogContentView.swift */; };
+		240FD0B02E2FFB74008F5419 /* CountryConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240FD0AD2E2FFB74008F5419 /* CountryConfig.swift */; };
+		240FD0B42E2FFCA4008F5419 /* CountryConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = 240FD0B32E2FFCA4008F5419 /* CountryConfig.json */; };
+		240FD0B62E300146008F5419 /* LocalizedContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240FD0B52E300146008F5419 /* LocalizedContentView.swift */; };
+		240FD0BA2E300774008F5419 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 240FD0B92E300774008F5419 /* Localizable.xcstrings */; };
 		5404A38D2ABAD73900D08F95 /* HomeVideoCategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5404A38C2ABAD73900D08F95 /* HomeVideoCategoryItem.swift */; };
 		5407E10F2AA9E07A00B82904 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5407E10E2AA9E07A00B82904 /* test.swift */; };
 		540C1FD42A8D0459007A668D /* SwiftDemoNewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540C1FD32A8D0459007A668D /* SwiftDemoNewApp.swift */; };
@@ -147,6 +152,11 @@
 		240640532E2944D900D77E8A /* CleanUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanUseCase.swift; sourceTree = "<group>"; };
 		240640572E2944F100D77E8A /* AuthRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepository.swift; sourceTree = "<group>"; };
 		240640582E2944F100D77E8A /* DatabaseFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseFile.swift; sourceTree = "<group>"; };
+		240FD0AB2E2FFB74008F5419 /* StringCatalogContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringCatalogContentView.swift; sourceTree = "<group>"; };
+		240FD0AD2E2FFB74008F5419 /* CountryConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryConfig.swift; sourceTree = "<group>"; };
+		240FD0B32E2FFCA4008F5419 /* CountryConfig.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CountryConfig.json; sourceTree = "<group>"; };
+		240FD0B52E300146008F5419 /* LocalizedContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedContentView.swift; sourceTree = "<group>"; };
+		240FD0B92E300774008F5419 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		244F50442E202E9600D1D9B0 /* StateObjDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjDemo.swift; sourceTree = "<group>"; };
 		244F50452E202EEE00D1D9B0 /* ObservedObjDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObjDemo.swift; sourceTree = "<group>"; };
 		24EF6E102E2C06440056B4F6 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
@@ -338,6 +348,18 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
+		240FD0AA2E2FFB59008F5419 /* StringCatalog */ = {
+			isa = PBXGroup;
+			children = (
+				240FD0B52E300146008F5419 /* LocalizedContentView.swift */,
+				240FD0AB2E2FFB74008F5419 /* StringCatalogContentView.swift */,
+				240FD0AD2E2FFB74008F5419 /* CountryConfig.swift */,
+				240FD0B32E2FFCA4008F5419 /* CountryConfig.json */,
+				240FD0B92E300774008F5419 /* Localizable.xcstrings */,
+			);
+			path = StringCatalog;
+			sourceTree = "<group>";
+		};
 		244F50432E202E8500D1D9B0 /* TCSSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
@@ -395,6 +417,7 @@
 		540C1FC72A8D0459007A668D = {
 			isa = PBXGroup;
 			children = (
+				240FD0AA2E2FFB59008F5419 /* StringCatalog */,
 				24EF6E0E2E2C06220056B4F6 /* PlatformHubArchitecture */,
 				2406404B2E29443A00D77E8A /* CleanArchiteture */,
 				2406402B2E29384500D77E8A /* Viper */,
@@ -739,6 +762,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 540C1FC72A8D0459007A668D;
 			productRefGroup = 540C1FD12A8D0459007A668D /* Products */;
@@ -757,6 +781,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				240FD0B42E2FFCA4008F5419 /* CountryConfig.json in Resources */,
 				54C620F92AA71CEA0068FDFD /* RoyalTv.json in Resources */,
 				54994DAF2AE135BF0025B21A /* trailer_720p.mov in Resources */,
 				540C1FDB2A8D045B007A668D /* Preview Assets.xcassets in Resources */,
@@ -764,6 +789,7 @@
 				540C20512A8D0572007A668D /* DetailsView.storyboard in Resources */,
 				54E922872AEA2D09007A8FB8 /* MockVideosContent.json in Resources */,
 				540C1FD82A8D045B007A668D /* Assets.xcassets in Resources */,
+				240FD0BA2E300774008F5419 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -878,6 +904,9 @@
 				540C201D2A8D0476007A668D /* FormTwo.swift in Sources */,
 				545ED5B42ADFEEC0001695F4 /* SubtitleViewFileDemo.swift in Sources */,
 				540C20572A8D060C007A668D /* picsModel.swift in Sources */,
+				240FD0AF2E2FFB74008F5419 /* StringCatalogContentView.swift in Sources */,
+				240FD0B02E2FFB74008F5419 /* CountryConfig.swift in Sources */,
+				240FD0B62E300146008F5419 /* LocalizedContentView.swift in Sources */,
 				54C620FB2AA71D240068FDFD /* RoyalTVView.swift in Sources */,
 				54C6210D2AA879DF0068FDFD /* LabelledDividerView.swift in Sources */,
 				540C202A2A8D04D0007A668D /* SecondView.swift in Sources */,
@@ -979,6 +1008,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -1032,6 +1062,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};

@@ -1,0 +1,424 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+
+    },
+    "%@" : {
+
+    },
+    "%lld" : {
+
+    },
+    "%lld Notification%@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld Notification%2$@"
+          }
+        }
+      }
+    },
+    "7 Night Norwegian Fjords Cruise" : {
+
+    },
+    "14" : {
+
+    },
+    "25,000" : {
+
+    },
+    "A sea of rewards" : {
+
+    },
+    "Accountbalance" : {
+
+    },
+    "Accounts" : {
+
+    },
+    "Action Sheet" : {
+
+    },
+    "Actions" : {
+
+    },
+    "Add" : {
+
+    },
+    "Age : %@" : {
+
+    },
+    "Auto-enroll applies to U.S. and Canadian guests only. All other guests may enroll post-cruise in the app or online, or on a future sailing at the onboard Loyalty Desk.   You will earn one Cruise point for each completed night of sailing, plus earn an extra Cruise point per night when you purchase and sail in suite accommodations (categories RL, RS, PS, SL, TS, A1, A2, A3, CL, OS, FS, GS, JS) and/or sail in any category and pay a single pricing type for double occupancy staterooms." : {
+
+    },
+    "bal is : %@" : {
+
+    },
+    "Binding Demo" : {
+
+    },
+    "BirthDate" : {
+
+    },
+    "Cancel" : {
+
+    },
+    "Cancel Clicked" : {
+
+    },
+    "Celebrity Silhouette" : {
+
+    },
+    "Click here for menu" : {
+
+    },
+    "Click Me" : {
+
+    },
+    "CodeCat15" : {
+
+    },
+    "Colour Selected :%@" : {
+
+    },
+    "Confirm" : {
+
+    },
+    "ControlsView" : {
+
+    },
+    "Could not load config" : {
+
+    },
+    "Count : %lld" : {
+
+    },
+    "Cruise Points" : {
+
+    },
+    "cruiseCardDatesLabel" : {
+
+    },
+    "cruiseCardReservationNumberLabel" : {
+
+    },
+    "cruiseCardReservationTitleLabel" : {
+
+    },
+    "cruiseCardShipNameLabel" : {
+
+    },
+    "cruiseCardTitleLabel" : {
+
+    },
+    "currency_label" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "INR"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "EUR"
+          }
+        }
+      }
+    },
+    "currencyLabel" : {
+
+    },
+    "Date" : {
+
+    },
+    "Delete" : {
+
+    },
+    "Earn points on every sailing" : {
+
+    },
+    "Email" : {
+
+    },
+    "Enter a Password" : {
+
+    },
+    "Enter your name:" : {
+
+    },
+    "Environment Object" : {
+
+    },
+    "Failure Alert" : {
+
+    },
+    "Favorite" : {
+
+    },
+    "Favourite Course" : {
+
+    },
+    "First action" : {
+
+    },
+    "Gallery" : {
+
+    },
+    "Hello" : {
+
+    },
+    "Hello World" : {
+
+    },
+    "Hello, world!" : {
+
+    },
+    "Hello, World!" : {
+
+    },
+    "Here is custom alert with builder" : {
+
+    },
+    "Hi" : {
+
+    },
+    "hii" : {
+
+    },
+    "History unavailable" : {
+
+    },
+    "Increse Count" : {
+
+    },
+    "Jun 24 — Jul 1, 2023" : {
+
+    },
+    "Komal" : {
+
+    },
+    "LANDMARK" : {
+
+    },
+    "List" : {
+
+    },
+    "Login" : {
+
+    },
+    "Login User Name : %@" : {
+
+    },
+    "MAKING AN ICON" : {
+
+    },
+    "Message" : {
+
+    },
+    "Must apply here. Offers vary elsewhere. Residents of the U.S. and its territories only. See full disclosure for details." : {
+
+    },
+    "Navigate" : {
+
+    },
+    "navigate to second view" : {
+
+    },
+    "New Item :%@" : {
+
+    },
+    "Not Playing" : {
+
+    },
+    "Number Of Likes" : {
+
+    },
+    "Ok" : {
+
+    },
+    "OK Clicked" : {
+
+    },
+    "ONLINE BONUS POINTS OFFER" : {
+
+    },
+    "Picker" : {
+
+    },
+    "Playing" : {
+
+    },
+    "Please choose colour" : {
+
+    },
+    "Please follow above link for custom shapes" : {
+
+    },
+    "Please note" : {
+
+    },
+    "Press this" : {
+
+    },
+    "RandomNum : %lld" : {
+
+    },
+    "RandomNumber" : {
+
+    },
+    "Receive Notification" : {
+
+    },
+    "Recent cruises and points can take up to 30 days post-cruise to display. If you don't see all your cruises, email crownandanchor@rccl.com for assistance" : {
+
+    },
+    "Recent cruises and points can take up to 30 days post-cruise to display. Please enroll or associate your Captain’s Club number with your account, and we'll look for more of your cruises. After doing so, if you don't see all your cruises, email cec@celebrity.com for assistance." : {
+
+    },
+    "Redeem for $250 onboard credit, or stateroom upgrades and more" : {
+
+    },
+    "RoyalONE®TV" : {
+
+    },
+    "Save" : {
+
+    },
+    "Second action" : {
+
+    },
+    "Send NewsPaper" : {
+
+    },
+    "Settings" : {
+
+    },
+    "Share" : {
+
+    },
+    "Simple ActionSheet" : {
+
+    },
+    "Simple Alert" : {
+
+    },
+    "Simple alert With message" : {
+
+    },
+    "Simple Alert With message" : {
+
+    },
+    "Simple Custom ALert" : {
+
+    },
+    "SimpleMyAlert" : {
+
+    },
+    "Slider" : {
+
+    },
+    "Something went wrong!" : {
+
+    },
+    "Sound" : {
+
+    },
+    "Success Alert" : {
+
+    },
+    "support_label" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "support@in.example.com"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "support@fr.example.com"
+          }
+        }
+      }
+    },
+    "supportLabel" : {
+
+    },
+    "Tap to print \"Cherry Blossom\"" : {
+
+    },
+    "Terms of service" : {
+
+    },
+    "This is Faliure alert" : {
+
+    },
+    "This is successs alert!" : {
+
+    },
+    "This Video has %lld likes" : {
+
+    },
+    "Try Again" : {
+
+    },
+    "Turkey Gizzards" : {
+
+    },
+    "User" : {
+
+    },
+    "User Details" : {
+
+    },
+    "User name is :%@" : {
+
+    },
+    "UserName" : {
+
+    },
+    "Videos" : {
+
+    },
+    "View All" : {
+
+    },
+    "View Builder" : {
+
+    },
+    "VIEW_ALL_VIDEOS" : {
+
+    },
+    "welcome_message" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welcome"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bienvenue"
+          }
+        }
+      }
+    },
+    "You have 0 past cruises" : {
+
+    },
+    "Your sailing history information is currently unavailable. Please check back later." : {
+
+    }
+  },
+  "version" : "1.0"
+}

@@ -13,6 +13,8 @@ struct SwiftDemoNewApp: App {
 
     var body: some Scene {
         WindowGroup {
+            LocalizedContentView()
+            //StringCatalogContentView()
             //ContentView(picsViewModel: PicsViewModel())
             //ControlsView()
            // FormOne()

@@ -1,0 +1,14 @@
+{
+  "US": {
+    "supportEmail": "support@us.example.com",
+    "currency": "USD"
+  },
+  "IN": {
+    "supportEmail": "support@in.example.com",
+    "currency": "INR"
+  },
+  "FR": {
+    "supportEmail": "support@fr.example.com",
+    "currency": "EUR"
+  }
+}
