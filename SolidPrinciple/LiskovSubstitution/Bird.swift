@@ -6,7 +6,7 @@
 //
 
 //Subclasses should be substitutable for their base classes.
-
+//parent Class or its child Class can be used in the same way without any errors.
 import Foundation
 
 //Bad
