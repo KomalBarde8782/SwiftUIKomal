@@ -13,6 +13,11 @@
 		240640552E2944D900D77E8A /* CleanUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240640532E2944D900D77E8A /* CleanUseCase.swift */; };
 		240640592E2944F100D77E8A /* DatabaseFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240640582E2944F100D77E8A /* DatabaseFile.swift */; };
 		2406405A2E2944F100D77E8A /* AuthRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240640572E2944F100D77E8A /* AuthRepository.swift */; };
+		240FD1102E31F9AD008F5419 /* Demnoo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240FD10F2E31F9AD008F5419 /* Demnoo.swift */; };
+		240FD1172E323A7E008F5419 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240FD1162E323691008F5419 /* CounterView.swift */; };
+		240FD1182E323A83008F5419 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240FD1152E32367E008F5419 /* Store.swift */; };
+		240FD1192E323A89008F5419 /* CounterAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240FD1132E323645008F5419 /* CounterAction.swift */; };
+		240FD11A2E323A8E008F5419 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240FD1122E32363C008F5419 /* AppState.swift */; };
 		5404A38D2ABAD73900D08F95 /* HomeVideoCategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5404A38C2ABAD73900D08F95 /* HomeVideoCategoryItem.swift */; };
 		5407E10F2AA9E07A00B82904 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5407E10E2AA9E07A00B82904 /* test.swift */; };
 		540C1FD42A8D0459007A668D /* SwiftDemoNewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540C1FD32A8D0459007A668D /* SwiftDemoNewApp.swift */; };
@@ -152,6 +157,11 @@
 		240FD0A52E2FF651008F5419 /* Bird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bird.swift; sourceTree = "<group>"; };
 		240FD0A72E2FF754008F5419 /* Worker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Worker.swift; sourceTree = "<group>"; };
 		240FD0A92E2FF8C1008F5419 /* MySQLDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySQLDatabase.swift; sourceTree = "<group>"; };
+		240FD10F2E31F9AD008F5419 /* Demnoo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demnoo.swift; sourceTree = "<group>"; };
+		240FD1122E32363C008F5419 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		240FD1132E323645008F5419 /* CounterAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterAction.swift; sourceTree = "<group>"; };
+		240FD1152E32367E008F5419 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		240FD1162E323691008F5419 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 		244F50442E202E9600D1D9B0 /* StateObjDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjDemo.swift; sourceTree = "<group>"; };
 		244F50452E202EEE00D1D9B0 /* ObservedObjDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObjDemo.swift; sourceTree = "<group>"; };
 		24EF6E102E2C06440056B4F6 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
@@ -395,6 +405,17 @@
 			path = DependencyInversion;
 			sourceTree = "<group>";
 		};
+		240FD1112E323636008F5419 /* Redux */ = {
+			isa = PBXGroup;
+			children = (
+				240FD1162E323691008F5419 /* CounterView.swift */,
+				240FD1152E32367E008F5419 /* Store.swift */,
+				240FD1132E323645008F5419 /* CounterAction.swift */,
+				240FD1122E32363C008F5419 /* AppState.swift */,
+			);
+			path = Redux;
+			sourceTree = "<group>";
+		};
 		244F50432E202E8500D1D9B0 /* TCSSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
@@ -455,6 +476,7 @@
 				240FD09F2E2FF54B008F5419 /* SolidPrinciple */,
 				24EF6E0E2E2C06220056B4F6 /* PlatformHubArchitecture */,
 				2406404B2E29443A00D77E8A /* CleanArchiteture */,
+				240FD1112E323636008F5419 /* Redux */,
 				2406402B2E29384500D77E8A /* Viper */,
 				244F50432E202E8500D1D9B0 /* TCSSwiftUI */,
 				542D7F5A2B1897DA000C382B /* Loyalty */,
@@ -496,6 +518,7 @@
 				540C20252A8D04A0007A668D /* Controls */,
 				540C1FD72A8D045B007A668D /* Assets.xcassets */,
 				540C1FD92A8D045B007A668D /* Preview Content */,
+				240FD10F2E31F9AD008F5419 /* Demnoo.swift */,
 			);
 			path = SwiftDemoNew;
 			sourceTree = "<group>";
@@ -870,9 +893,11 @@
 				54925F0F2ABC25E200E7D34A /* EmptyStateView.swift in Sources */,
 				540C20332A8D04EA007A668D /* CollectionViewDemo.swift in Sources */,
 				540C20502A8D0572007A668D /* DetailsViewController.swift in Sources */,
+				240FD1192E323A89008F5419 /* CounterAction.swift in Sources */,
 				54C621092AA752A40068FDFD /* VideoCardView.swift in Sources */,
 				54E922852AEA2B19007A8FB8 /* HomeVideoCategoryItemView.swift in Sources */,
 				54C621032AA72E640068FDFD /* Featured_video.swift in Sources */,
+				240FD1182E323A83008F5419 /* Store.swift in Sources */,
 				54E679D02AB02D23008D3223 /* FeaturedVideoAssetView.swift in Sources */,
 				540C20492A8D054B007A668D /* CustomCellDemo.swift in Sources */,
 				540C20112A8D0476007A668D /* StaeDemo.swift in Sources */,
@@ -883,6 +908,7 @@
 				54EF71722B43D49000F6FF82 /* HistoryUnavailableView.swift in Sources */,
 				547932F02AB45A0A00E28E93 /* carddVieww.swift in Sources */,
 				547932EC2AB44DFE00E28E93 /* ShimmeringViewModifier.swift in Sources */,
+				240FD1102E31F9AD008F5419 /* Demnoo.swift in Sources */,
 				544549B92AD6B3C400B274BA /* SubtitlesDemo.swift in Sources */,
 				54C621042AA72E640068FDFD /* Categories.swift in Sources */,
 				540C204A2A8D054B007A668D /* listDemoNew.swift in Sources */,
@@ -914,9 +940,11 @@
 				54E922922AEA3C4F007A8FB8 /* HomeVideosCategory.swift in Sources */,
 				540C205F2A8D0645007A668D /* ContentView.swift in Sources */,
 				240640542E2944D900D77E8A /* CleanEntiry.swift in Sources */,
+				240FD1172E323A7E008F5419 /* CounterView.swift in Sources */,
 				240640552E2944D900D77E8A /* CleanUseCase.swift in Sources */,
 				240640592E2944F100D77E8A /* DatabaseFile.swift in Sources */,
 				2406405A2E2944F100D77E8A /* AuthRepository.swift in Sources */,
+				240FD11A2E323A8E008F5419 /* AppState.swift in Sources */,
 				540C201F2A8D0476007A668D /* AppStorageDemo.swift in Sources */,
 				540C20592A8D060F007A668D /* PicsViewModel.swift in Sources */,
 				54E9227D2AE94D87007A8FB8 /* accessibilityDemo.swift in Sources */,

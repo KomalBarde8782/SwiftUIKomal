@@ -16,6 +16,11 @@ struct ViewBuilderDemo: View {
                     Image(systemName: "exclamationmark.triangle.fill").resizable().frame(width: 65,height: 65)
                     Text("Here is custom alert with builder")
                 }
+                
+                AlertViewBuilder {
+                    Image(systemName: "exclamationmark.triangle.fill").resizable().frame(width: 65,height: 65)
+                    Text("demo")
+                }
             }.navigationTitle("View Builder")
         }
     }
@@ -46,5 +51,35 @@ struct AlertViewBuilder <Content : View>: View{
 struct ViewBuilderDemo_Previews: PreviewProvider {
     static var previews: some View {
         ViewBuilderDemo()
+    }
+}
+
+
+
+struct AdlertViewBuilder <Content : View>: View {
+    
+    let content : Content
+    init (@ViewBuilder content : () -> Content) {
+        self.content = content()
+    }
+    var body: some View {
+        VStack {
+            
+        }
+    }
+}
+
+
+
+struct demooVB <Content :  View> : View {
+    
+    let content: Content
+    init(@ViewBuilder content: () -> Content){
+        self.content = content()
+    }
+    var body: some View {
+        VStack {
+            
+        }
     }
 }

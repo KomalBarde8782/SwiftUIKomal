@@ -38,16 +38,19 @@ struct SwiftDemoNewApp: App {
             
           //  VideoView()
             //SubtitlesDemo()
-            //ControlsView()
+            ControlsView()
            // accessibilityDemo()
             
             //HomeVideosView(model: HomeVideoCategoryItem(title: "", image: nil, video: nil))
            // ios14_demoApp()
-            let repository = AuthRepositoryImpl()
-            let useCase = LoginUseCaseImpl(repository: repository)
-            let viewModel = LoginViewModel(loginUseCase: useCase)
-           // Pass the viewModel to LoginView
-           CleanLoginView(viewModel: viewModel)
+//            let repository = AuthRepositoryImpl()
+//            let useCase = LoginUseCaseImpl(repository: repository)
+//            let viewModel = LoginViewModel(loginUseCase: useCase)
+//           // Pass the viewModel to LoginView
+//           CleanLoginView(viewModel: viewModel)
+            
+//            let store = Store(initialState: AppState(), reducer: counterReducer)
+//                     CounterView(store: store)
         }
     }
 }
