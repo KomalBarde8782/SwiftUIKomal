@@ -13,6 +13,9 @@
 		240640552E2944D900D77E8A /* CleanUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240640532E2944D900D77E8A /* CleanUseCase.swift */; };
 		240640592E2944F100D77E8A /* DatabaseFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240640582E2944F100D77E8A /* DatabaseFile.swift */; };
 		2406405A2E2944F100D77E8A /* AuthRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240640572E2944F100D77E8A /* AuthRepository.swift */; };
+		24E89A5D2E6028F400F148D7 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E89A5C2E60283800F148D7 /* AppState.swift */; };
+		24E89A5F2E602B6100F148D7 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E89A5E2E602B5D00F148D7 /* Store.swift */; };
+		24E89A632E602D2700F148D7 /* HSBCReduxDemoContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E89A622E602D2700F148D7 /* HSBCReduxDemoContent.swift */; };
 		5404A38D2ABAD73900D08F95 /* HomeVideoCategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5404A38C2ABAD73900D08F95 /* HomeVideoCategoryItem.swift */; };
 		5407E10F2AA9E07A00B82904 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5407E10E2AA9E07A00B82904 /* test.swift */; };
 		540C1FD42A8D0459007A668D /* SwiftDemoNewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540C1FD32A8D0459007A668D /* SwiftDemoNewApp.swift */; };
@@ -149,6 +152,9 @@
 		240640582E2944F100D77E8A /* DatabaseFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseFile.swift; sourceTree = "<group>"; };
 		244F50442E202E9600D1D9B0 /* StateObjDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjDemo.swift; sourceTree = "<group>"; };
 		244F50452E202EEE00D1D9B0 /* ObservedObjDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObjDemo.swift; sourceTree = "<group>"; };
+		24E89A5C2E60283800F148D7 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		24E89A5E2E602B5D00F148D7 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		24E89A622E602D2700F148D7 /* HSBCReduxDemoContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSBCReduxDemoContent.swift; sourceTree = "<group>"; };
 		24EF6E102E2C06440056B4F6 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		24EF6E142E2C06FC0056B4F6 /* LoginPlatformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPlatformView.swift; sourceTree = "<group>"; };
 		24EF6E152E2C07110056B4F6 /* LoginPlatformViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPlatformViewModel.swift; sourceTree = "<group>"; };
@@ -347,6 +353,16 @@
 			path = TCSSwiftUI;
 			sourceTree = "<group>";
 		};
+		24E89A5B2E6027B800F148D7 /* ReduxExapmple */ = {
+			isa = PBXGroup;
+			children = (
+				24E89A5C2E60283800F148D7 /* AppState.swift */,
+				24E89A5E2E602B5D00F148D7 /* Store.swift */,
+				24E89A622E602D2700F148D7 /* HSBCReduxDemoContent.swift */,
+			);
+			path = ReduxExapmple;
+			sourceTree = "<group>";
+		};
 		24EF6E0E2E2C06220056B4F6 /* PlatformHubArchitecture */ = {
 			isa = PBXGroup;
 			children = (
@@ -395,6 +411,7 @@
 		540C1FC72A8D0459007A668D = {
 			isa = PBXGroup;
 			children = (
+				24E89A5B2E6027B800F148D7 /* ReduxExapmple */,
 				24EF6E0E2E2C06220056B4F6 /* PlatformHubArchitecture */,
 				2406404B2E29443A00D77E8A /* CleanArchiteture */,
 				2406402B2E29384500D77E8A /* Viper */,
@@ -815,6 +832,7 @@
 				54C621092AA752A40068FDFD /* VideoCardView.swift in Sources */,
 				54E922852AEA2B19007A8FB8 /* HomeVideoCategoryItemView.swift in Sources */,
 				54C621032AA72E640068FDFD /* Featured_video.swift in Sources */,
+				24E89A632E602D2700F148D7 /* HSBCReduxDemoContent.swift in Sources */,
 				54E679D02AB02D23008D3223 /* FeaturedVideoAssetView.swift in Sources */,
 				540C20492A8D054B007A668D /* CustomCellDemo.swift in Sources */,
 				540C20112A8D0476007A668D /* StaeDemo.swift in Sources */,
@@ -851,6 +869,7 @@
 				540C201E2A8D0476007A668D /* ControlsView.swift in Sources */,
 				547932E42AB448E800E28E93 /* ShimmeringViewModel.swift in Sources */,
 				54A4F0D82AEB84BC006CA2C3 /* ViewAllItemView.swift in Sources */,
+				24E89A5F2E602B6100F148D7 /* Store.swift in Sources */,
 				545ED5B12ADFEA2A001695F4 /* AVPlayerViewControllerExtension.swift in Sources */,
 				547932E82AB44A5900E28E93 /* shimmerDemoView.swift in Sources */,
 				54E922922AEA3C4F007A8FB8 /* HomeVideosCategory.swift in Sources */,
@@ -879,6 +898,7 @@
 				545ED5B42ADFEEC0001695F4 /* SubtitleViewFileDemo.swift in Sources */,
 				540C20572A8D060C007A668D /* picsModel.swift in Sources */,
 				54C620FB2AA71D240068FDFD /* RoyalTVView.swift in Sources */,
+				24E89A5D2E6028F400F148D7 /* AppState.swift in Sources */,
 				54C6210D2AA879DF0068FDFD /* LabelledDividerView.swift in Sources */,
 				540C202A2A8D04D0007A668D /* SecondView.swift in Sources */,
 				540C1FD42A8D0459007A668D /* SwiftDemoNewApp.swift in Sources */,

@@ -43,11 +43,15 @@ struct SwiftDemoNewApp: App {
             
             //HomeVideosView(model: HomeVideoCategoryItem(title: "", image: nil, video: nil))
            // ios14_demoApp()
-            let repository = AuthRepositoryImpl()
-            let useCase = LoginUseCaseImpl(repository: repository)
-            let viewModel = LoginViewModel(loginUseCase: useCase)
-           // Pass the viewModel to LoginView
-           CleanLoginView(viewModel: viewModel)
+//            let repository = AuthRepositoryImpl()
+//            let useCase = LoginUseCaseImpl(repository: repository)
+//            let viewModel = LoginViewModel(loginUseCase: useCase)
+//           // Pass the viewModel to LoginView
+//           CleanLoginView(viewModel: viewModel)
+            
+            //ReduxContentView(store: AppState())
+            let store = Store(state: .init(counter: 0), reducer: reducer)
+            HSBCReduxDemoContent().environmentObject(store)
         }
     }
 }
